@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Prayers",
-    "slug": "Prayers",
+    "slug": "prayer",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.catholic.prayer"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "89ce9df7-6920-49f1-bfa8-0da87503fe07"
+      }
+    },
+    "owner": "edwinthomasatkrn"
   }
 }
