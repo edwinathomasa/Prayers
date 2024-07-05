@@ -13,14 +13,18 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.catholic.prayer"
+      "package": "com.catholic.prayer",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "bundler": "metro",
@@ -41,6 +45,9 @@
         "projectId": "89ce9df7-6920-49f1-bfa8-0da87503fe07"
       }
     },
-    "owner": "edwinthomasatkrn"
+    "owner": "edwinthomasatkrn",
+    "updates": {
+      "url": "https://u.expo.dev/89ce9df7-6920-49f1-bfa8-0da87503fe07"
+    }
   }
 }
