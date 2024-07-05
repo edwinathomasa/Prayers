@@ -17,6 +17,4 @@ export namespace Typography {
     export const LuminousOtherHeader = { fontSize: FontSize.Large, fontFamily: Font.SemiBold, color: Color.LuminousOther }
 
     export const Default = { fontSize: FontSize.Small, fontFamily: Font.Light, color: Color.Blue }
-
-    
 }

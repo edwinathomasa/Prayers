@@ -1,3 +1,4 @@
+import React from "react";
 import { Text, View } from "react-native";
 
 export default function Index() {
@@ -9,7 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>First set.</Text>
+      <Text>tehigst</Text>
     </View>
   );
 }
