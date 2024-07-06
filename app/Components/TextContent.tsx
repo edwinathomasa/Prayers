@@ -6,6 +6,7 @@ import { Typography } from "../constants/Typograph";
 import { Leading } from "../constants/Leading";
 import { Skeleton } from "./Atom/Skeleton";
 import Spacer from "./Atom/Spacer";
+import { firstLetterCaptalize } from "../Utility/String";
 
 const headingWidths = ["40%", "50%", "60%", "70%"];
 const textWidths = ["45%", "55%", "65%"];

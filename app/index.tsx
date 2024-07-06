@@ -1,5 +1,7 @@
 import React from "react";
 import { Text, View } from "react-native";
+import { TextContent } from "./Components/TextContent";
+import { Color } from "./constants/Color";
 
 export default function Index() {
   return (
@@ -10,7 +12,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>tehigst</Text>
+      <TextContent text={"Firstsetup"} color="Gold" />
     </View>
   );
 }
